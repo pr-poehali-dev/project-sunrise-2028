@@ -11,10 +11,10 @@ const values = [
 ]
 
 const stats = [
-  { number: "50+", label: "Проектов" },
-  { number: "45+", label: "Довольных клиентов" },
-  { number: "30+", label: "Созданных логотипов" },
-  { number: "3+", label: "Года опыта" },
+  { number: "30+", label: "Проектов" },
+  { number: "25+", label: "Довольных клиентов" },
+  { number: "100%", label: "Работают и после сдачи" },
+  { number: "5 дней", label: "Средний срок визитки" },
 ]
 
 export function AboutSection() {
@@ -27,19 +27,19 @@ export function AboutSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 mb-4 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
             <Sparkles className="h-4 w-4" />
-            О CodeCraft
+            Об Apis Studio
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Качество, которое{" "}
+            Надёжно, красиво{" "}
             <span className="text-primary relative">
-              впечатляет
+              и в срок
               <svg className="absolute -bottom-2 left-0 w-full" height="8" viewBox="0 0 200 8" fill="none">
                 <path d="M0 4C50 2 150 6 200 4" stroke="currentColor" strokeWidth="2" className="text-primary" />
               </svg>
             </span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Создание сайта не должно быть дорогим. Мы разрабатываем индивидуальные решения, которые идеально соответствуют пожеланиям каждого клиента.
+            Apis Studio — команда разработчиков, которая создаёт сайты для малого и среднего бизнеса. Мы не просто сдаём проект и уходим — мы остаёмся рядом и следим за тем, чтобы ваш сайт работал стабильно.
           </p>
         </div>
 

@@ -4,40 +4,40 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Умный помощник по выборам",
-    category: "AI/ML и веб-разработка",
-    image: "/omgekeerdestemwijzer-banner.png",
+    title: "Лэндинг для фитнес-клуба",
+    category: "Лэндинг",
+    image: "/placeholder.jpg",
     description:
-      "AI-приложение для выборов. Пользователи задают вопросы о позициях партий и получают 100% фактические ответы из официальных программ с использованием RAG-технологии.",
-    url: "https://de-omgekeerde-stemwijzer.onrender.com/",
-    tags: ["Next.js", "AI/ML", "RAG", "TypeScript"],
+      "Продающий лэндинг для фитнес-клуба с формой записи на пробное занятие, блоком с тренерами и акциями. Конверсия выросла на 40% по сравнению со старым сайтом.",
+    url: "#portfolio",
+    tags: ["Лэндинг", "Адаптивный дизайн", "CRM-интеграция"],
   },
   {
-    title: "Автомойка Tahsin",
-    category: "Веб-дизайн и разработка",
-    image: "/autopoetsbedrijf-tahsin-project.png",
+    title: "Интернет-магазин цветов",
+    category: "Интернет-магазин",
+    image: "/placeholder.jpg",
     description:
-      "Профессиональный сайт для автомойки с 20-летним опытом. Полная презентация услуг, автомойки и гаража с современным адаптивным дизайном.",
-    url: "https://www.autopoetsbedrijftahsin.nl/",
-    tags: ["React", "Next.js", "Tailwind CSS"],
+      "Полноценный магазин с каталогом букетов, онлайн-оплатой и доставкой. Клиент самостоятельно управляет товарами через удобную панель администратора.",
+    url: "#portfolio",
+    tags: ["Интернет-магазин", "Онлайн-оплата", "Каталог"],
   },
   {
-    title: "Кадровое агентство CAN",
-    category: "Веб-разработка",
-    image: "/can-uitzendbureau-project.png",
+    title: "Сайт-визитка юридической фирмы",
+    category: "Сайт-визитка",
+    image: "/placeholder.jpg",
     description:
-      "Кадровое агентство с 30-летним опытом в садоводческом секторе. Сайт с обзором услуг и прямыми контактами для работодателей и соискателей.",
-    url: "https://canbv.nl/",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+      "Строгий и профессиональный сайт для юридической компании. Описание практик, команды и форма записи на консультацию. Высокие позиции в Google по региональным запросам.",
+    url: "#portfolio",
+    tags: ["Визитка", "SEO", "Форма записи"],
   },
   {
-    title: "Портфолио Murat Sahin",
-    category: "Портфолио-сайт",
-    image: "/murat-sahin-portfolio.png",
+    title: "Корпоративный сайт строительной компании",
+    category: "Корпоративный сайт",
+    image: "/placeholder.jpg",
     description:
-      "Профессиональное портфолио full-stack разработчика. Демонстрация проектов, навыков и опыта с современным минималистичным дизайном и темной темой.",
-    url: "https://murat-sahin-dev.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", ".NET Core"],
+      "Многостраничный сайт со страницами услуг, портфолио объектов и блогом. Интегрирован калькулятор стоимости работ для расчёта смет онлайн.",
+    url: "#portfolio",
+    tags: ["Корпоративный сайт", "Калькулятор", "Портфолио"],
   },
 ]
 
@@ -48,7 +48,7 @@ export function PortfolioSection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наше портфолио</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Ознакомьтесь с подборкой наших последних проектов и узнайте, как мы помогаем бизнесу расти с помощью мощных цифровых решений.
+            Примеры наших работ — от лэндингов и визиток до интернет-магазинов для разных сфер бизнеса.
           </p>
         </div>
 
